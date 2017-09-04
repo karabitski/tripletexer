@@ -1,0 +1,9 @@
+.bundle/
+log/*.log
+pkg/
+Gemfile.lock
+.ruby-version
+/doc
+/.yardoc
+/tmp
+/*.gem
