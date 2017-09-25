@@ -31,19 +31,19 @@ module Tripletexer::Endpoints
     end
 
     def posting
-      Tripletexer::Api::Ledger::Posting.new(connection)
+      Tripletexer::Endpoints::Ledger::Posting.new(connection)
     end
 
     def vat_type
-      Tripletexer::Api::Ledger::VatType.new(connection)
+      Tripletexer::Endpoints::Ledger::VatType.new(connection)
     end
 
     def voucher
-      Tripletexer::Api::Ledger::Voucher.new(connection)
+      Tripletexer::Endpoints::Ledger::Voucher.new(connection)
     end
 
     def type
-      Tripletexer::Api::Ledger::Type.new(connection)
+      Tripletexer::Endpoints::Ledger::Type.new(connection)
     end
   end
 end
